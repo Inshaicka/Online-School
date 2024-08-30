@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.hide{
+    transform: translateY(-70px);
+}
+
+.about-us{
+	margin-top: 110px;
+}
+
+.history {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #4a4a4a;
+    background-color: #f0f4f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.history h3 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.history p {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.history p:nth-child(odd) {
+    background-color: #e3e9ef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.history p:nth-child(even) {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.teachers{
+	grid-template-columns: 500px 500px;
+	grid-template-rows: 1fr 1fr;
+	display: grid;
+	grid-row-gap: 100px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.teacher-card {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teacher-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-card img{
+	height: 500px;
+}
+
+.teacher-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.teacher-card p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.teacher-card p i{
+	font-size: 48px;
+	cursor: pointer;
+}
+
+.teacher-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.teacher-card .social-media{
+	display: flex;
+	justify-content: center;
+}
